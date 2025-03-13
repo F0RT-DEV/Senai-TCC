@@ -4,7 +4,10 @@ import Carousel from '../Components/Carousel'
 
 const Home = () => {
   return (
-    <div >
+    <div>
+      {/* <div className={styles.header}>
+        <img src="/bannerYpuã.jpeg" alt="" />
+      </div> */}
       <div className={styles.container}>
       <div className={styles.text}>
       <h1>POUSADA QUINTA DO YPUÃ</h1>
