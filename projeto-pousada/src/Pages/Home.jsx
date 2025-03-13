@@ -31,6 +31,26 @@ const Home = () => {
         <h1>CONHEÇA NOSSAS ACOMODAÇÕES</h1>
       </div>
        <Carousel />
+       
+       <div className={styles.mapContainer}>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17159.69124781451!2d-48.77767027586241!3d-28.549172347613816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9521544af4438443%3A0x2a25491fc6f1ec07!2sPousada%20Quinta%20do%20Ypu%C3%A3!5e0!3m2!1spt-BR!2sbr!4v1741823222020!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
+          style={{ border: 0, width: '100%', maxWidth: '1100px', height: '700px' }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <ul>
+          <li><h2>Contate-nos</h2></li>
+          <li>Telefone: (48) 88790-000</li>
+          <li>Whatsapp: (48) 99940-9732</li>
+          <li>Instagram: @pousadaquintadoypua</li>
+          <li>Email: pousadaquintadoypua@gmail.com</li>
+          <li>Estrada Ipua, nº 6, Laguna - SC</li>
+        </ul>
+      </div>
     </div>
   )
 }

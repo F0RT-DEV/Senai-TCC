@@ -1,52 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hammersmith+One&family=IM+Fell+Double+Pica:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Hammersmith+One&family=IM+Fell+Double+Pica:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .containerfooter{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: #2029AD;
-    height: 250px;
-    margin-top: 70px;
-}
-.logoFooter{
-    margin-left: 70px;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    background-color: #7E2726;
+    height: 300px;
+    margin-top: 200px;
 }
 
 .containerfooter h1{
     font-size: 20px;
     color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
-.redesocial h1{
-    margin-top: 10px;
-    margin-right: 30px;
-}
-.redesocial ul{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    list-style: none;
-    margin:80px 70px 0px 70px;
+.contatos a{
+    text-decoration: none;
+    color: white;
     
 }
-.redesocial li{
-    margin-left: 5px;
-    
-}
-ul a{
+.contatos ul{
+    font-family: 'Inter', sans-serif;
     list-style: none;
     text-decoration: none;
     color: white;
+    line-height: 50px;
+}
+.contatos svg{
+    margin-right: 10px;
 }
 
-.sac h1{
-    margin-top: 10px;
-}
-.sac ul{
+.informacao ul{
+    font-family: 'Inter', sans-serif;
     color: white;
+}
+.informacao svg{
+    margin-right: 10px;
+}
+.termos ul{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.copy{
+    background-color: #D2AE6D;
+    text-align: center;
+    font-size: 20px;
+    height: 70px;
 }
 
-.pagamento h1{
-    margin-top: 10px;
-}
-.pagamento ul{
-    color: white;
+.copy p{
+    font-family: 'Inter', sans-serif;
+    line-height: 70px;
+    color: black
 }
