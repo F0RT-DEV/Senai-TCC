@@ -10,7 +10,7 @@ const NavBarra = () => {
     <nav className={styles.navbar}>
     <NavLink className={styles.link} to="/">INICIO</NavLink>
     <NavLink className={styles.link} to="/sobre">SOBRE</NavLink>
-    <NavLink className={styles.link} to="/sobre">QUARTOS</NavLink>
+    <NavLink className={styles.link} to="/quartos">QUARTOS</NavLink>
     <NavLink className={styles.link} to="/contato">CONTATO</NavLink>
     <NavLink className={styles.link} to="/login">LOGIN</NavLink>
   </nav>
